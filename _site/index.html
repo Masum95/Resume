@@ -1,5 +1,3 @@
---- 
----
 <!DOCTYPE html>
 <html lang="en">
 
@@ -160,19 +158,43 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
-        {% for degree in site.data.profile.education %}
+        
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3><a href={{ degree.institute.link }}> {{ degree.institute.name }}</a></h3>
-            <div><strong>Obtained Degree:</strong> {{ degree.degree }}</div>
-            <div><strong>Subject:</strong> {{ degree.sub }}</div>
-            <p><strong>{{ degree.result[0] }}</strong> {{ degree.result[1] }}</p>
+            <h3><a href=> </a></h3>
+            <div><strong>Obtained Degree:</strong> B.Sc. Engg</div>
+            <div><strong>Subject:</strong> Computer Science and Emerging (CSE)</div>
+            <p><strong>CGPA</strong> N/A</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">{{ degree.period }}</span>
+            <span class="text-primary">February 2016 - Present</span>
           </div>
         </div>
-        {% endfor %}
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3><a href=> </a></h3>
+            <div><strong>Obtained Degree:</strong> H.S.C.(Higher Secondary Certificate)</div>
+            <div><strong>Subject:</strong> Science</div>
+            <p><strong>GPA</strong> 5.00/5.00</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2013 - 2015</span>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3><a href=> </a></h3>
+            <div><strong>Obtained Degree:</strong> S.S.C.(Secondary School Certificate)</div>
+            <div><strong>Subject:</strong> Science</div>
+            <p><strong>GPA</strong> 5.00/5.00</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2003 - 2013</span>
+          </div>
+        </div>
+        
         
 
       </div>
@@ -258,24 +280,64 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="research">
       <div class="w-100">
-        {% for projects in site.data.profile.projects %}
-        <h3 class="mb-5"> {{ projects.title }} </h2>
-          {% for project in projects.projList  %}
+        
+        <h3 class="mb-5"> UNDERGRAD PROJECTS </h2>
+          
+          
+        <h3 class="mb-5">  </h2>
+          
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h4 class="mb-0" style="color:#1580AB">
-                {{ project.name}}
+                CONTINUOUS MONITORING AND SMART EMERGENCY WARNING SYSTEM FOR CARDIOVASCULAR PATIENTS
               </h3>
               <p>
-                {{ project.details }}
+                Giving warning in advance for patients  with arrhythmia using PPG. 
+
               </p>
             </div>
             <div class="resume-date text-md-right">
-              <a href={{ project.link }}> <span class="text-primary">Link</span> </a>
+              <a href=https://google.com> <span class="text-primary">Link</span> </a>
             </div>
           </div>
-          {% endfor %}
-          {%endfor %}
+          
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h4 class="mb-0" style="color:#1580AB">
+                ASSOCIATION MAPPING OF QUANTITATIVE
+      PHENOTYPES FROM SEQUENCING READS USING
+      K-MERS      
+
+              </h3>
+              <p>
+                Finding genome-sequence responsible for diseases which  have quantitative phenotypes  
+
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <a href=> <span class="text-primary">Link</span> </a>
+            </div>
+          </div>
+          
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h4 class="mb-0" style="color:#1580AB">
+                ASSOCIATION MAPPING OF QUANTITATIVE
+      PHENOTYPES FROM SEQUENCING READS USING
+      K-MERS      
+
+              </h3>
+              <p>
+                Finding genome-sequence responsible for diseases which  have quantitative phenotypes  
+
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <a href=> <span class="text-primary">Link</span> </a>
+            </div>
+          </div>
+          
+          
           
       </div>
     </section>
