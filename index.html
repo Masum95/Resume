@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>{{ site.data.profile.site_name }} </title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,39 +25,13 @@
   <link href="css/resume.min.css" rel="stylesheet">
 
 </head>
-<script>
-  var config = '\
-    { \
-    "firstName":"Masum",  \
-    "lastName":"Rahman",  \
-    "address":"Dhaka, Bangladesh",  \
-    "about_me":"Rahman",  \
-    "experience":"[]",  \
-    "lastName":"Rahman",  \
-    "lastName":"Rahman",  \
-    "lastName":"Rahman",  \
-    "lastName":"Rahman",  \
-    "city":"New York" \
-    }';
 
-
-  var data = $.parseJSON(config);
-  $(document).ready(function () {
-    $("#firstName").text(data.firstName);
-    $("#lastName").text(data.lastName);
-    $("#address").text(data.address);
-
-
-  });
-
-
-</script>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="background-color:rgb(33, 33, 33) !important">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="background-color: {{ site.data.profile.side_bar_color }} !important">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Masum</span>
+      <span class="d-block d-lg-none">{{ site.data.name }}</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
@@ -100,14 +74,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0"><span id='firstName'>Clarence</span>
-          <span class="text-primary" id='lastName'>Taylor</span>
+        <h1 class="mb-0"><span id='firstName'>{{ site.data.profile.first_name }}</span>
+          <span class="text-primary" id='lastName'>{{ site.data.profile.last_name }}</span>
         </h1>
         <div class="subheading mb-5" id='address'>
         </div>
         <p class="lead mb-5" id='about_me'> <!-- ABOUT ME SECTION  -->
-          Hi,  I am a final-year undergrad student at the <a href="http://buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>
-          
+          {{ site.data.profile.about }}
         </p>
 
       </div>
@@ -186,24 +159,12 @@
 
         <div class="subheading mb-3"></div>
         <ul class="list-inline dev-icons">
+          {% for button in site.data.profile.skillButtons %}
           <li class="list-inline-item">
-            <i class="fab fa-java"></i>
+            <i class="{{ button }}"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-
-
-          </li>
+          {% endfor %}
+          
         </ul>
 
         {% for skills in site.data.profile.skills %}
@@ -273,20 +234,12 @@
       <div class="w-100">
         <h2 class="mb-5">Awards &amp; Certifications</h2>
         <ul class="fa-ul mb-0">
-
+          {% for award in site.data.profile.awards %}
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            <strong>B.Sc.:</Strong> University Merit Scholarship
+            {{  award }}
           </li>
-
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            <strong>H.S.C.:</strong> Board general scholarship.
-          </li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            <strong>S.S.C.:</strong> Board general scholarship.
-          </li>
+          {% endfor %}
 
         </ul>
       </div>
@@ -300,21 +253,19 @@
         <h2 class="mb-5">Contact</h2>
         <h3>Email</h3>
         <ul>
-          <li>masumrahman99@gmail.com</li>
-          <li>1505014.mr@ugrad.cse.buet.ac.bd</li>
+          {% for mail in site.data.profile.contact.mail  %}
+          <li>{{ mail }}</li>
+          {% endfor %}
         </ul>
 
         <br>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/masum-rahman-0a4364112/">
-            <i class="fab fa-linkedin-in"></i>
+          {% for social in site.data.profile.contact.social %}
+          <a href={{ social.link }}>
+            <i class="{{ social.icon }}"></i>
           </a>
-          <a href="https://github.com/Masum95">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.facebook.com/m.rahman360">
-            <i class="fab fa-facebook-f"></i>
-          </a>
+          {% endfor %}
+          
         </div>
       </div>
     </section>

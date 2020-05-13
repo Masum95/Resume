@@ -1,9 +1,19 @@
 name: Masum Rahman
+first_name: Masum
+last_name: Rahman 
+side_bar_color: rgb(33, 33, 33)
+site_name: Masum's Planet 
+
+
+about: > 
+          Hi,  I am a final-year undergrad student at the 
+          <a href="http://buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>
+
 education: 
     - degree: B.Sc. Engg
       institute: 
-        - name : Bangladesh University of Engineering and Technology (BUET)
-        - link : http://buet.ac.bd/
+         name : Bangladesh University of Engineering and Technology (BUET)
+         link : http://buet.ac.bd/
       sub: Computer Science and Emerging (CSE)
       period : February 2016 - Present
       result: 
@@ -12,8 +22,8 @@ education:
     
     - degree: H.S.C.(Higher Secondary Certificate)
       institute: 
-        - name : Notre Dame College
-        - link : https://notredamecollege-dhaka.com/
+         name : Notre Dame College
+         link : https://notredamecollege-dhaka.com/
       sub: Science
       period : 2013 - 2015
       result: 
@@ -22,31 +32,31 @@ education:
     
     - degree: S.S.C.(Secondary School Certificate)
       institute: 
-        - name : Government Laboratory High School,Dhaka
-        - link : http://www.glabdhaka.edu.bd/
+         name : Government Laboratory High School,Dhaka
+         link : http://www.glabdhaka.edu.bd/
       sub: Science
       period : 2003 - 2013
       result: 
         - GPA
         - 5.00/5.00
 
+#list of all skills icon here from this site https://fontawesome.com/
+skillButtons: ['fab fa-java', 'fab fa-python', 'fab fa-html5' , 'fab fa-css3-alt' ,'fab fa-js-square' ]
+
+
 skills: 
   - title : Technical Skills
     list:
       - <strong>Expert:</strong> Python, C, C++, Java.
       - <strong>Fairly Good:</strong> Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
-      # - <strong>Database:</strong> MySQL, Oracle
-      # - <strong>Version Control System:</strong> GitHub.
+      - <strong>Database:</strong> MySQL, Oracle
+      - <strong>Version Control System:</strong> GitHub.
   
   - title: Commuication Skills
     list: 
       - English
       - Bangla 
 
-  - title: Commuication Skills
-    list: 
-      - English
-      - Bangla 
 
 interest:
   - title: Research Interests
@@ -79,14 +89,30 @@ projects:
             have quantitative phenotypes  
           link: 
           
-        - name: >
-            ASSOCIATION MAPPING OF QUANTITATIVE
-                  PHENOTYPES FROM SEQUENCING READS USING
-                  K-MERS      
-          details : > 
-            Finding genome-sequence responsible for diseases which 
-            have quantitative phenotypes  
-          link: 
     
+
+awards: 
+  - <strong>B.Sc.:</Strong> University Merit Scholarship
+  - <strong>H.S.C.:</strong> Board general scholarship.
+  - <strong>S.S.C.:</strong> Board general scholarship.
+
+#for icon, go to this site: https://fontawesome.com/
+contact: 
+    mail : 
+        - masumrahman99@gmail.com
+        - 1505014.mr@ugrad.cse.buet.ac.bd
+    social:
+        - name: facebook
+          link:  https://www.facebook.com/m.rahman360
+          icon: fab fa-facebook-f
+        
+        - name: github
+          link : https://github.com/Masum95
+          icon: fab fa-github
+
+        - name: linkedin 
+          link : https://www.linkedin.com/in/masum-rahman-0a4364112/ 
+          icon: fab fa-linkedin-in
+
 
 
