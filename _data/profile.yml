@@ -41,20 +41,26 @@ education:
 #       - English
 #       - Bangla 
 
-# interest:
-#   - Research Interests:
-#       - Computation Biology
-#       - Health Informatics
-#       - Data Science
-#       - Machine Learning
+interest:
+  - title: Research Interests
+    list: 
+      - Computation Biology
+      - Health Informatics
+      - Data Science
+      - Machine Learning
 
-#   - Hobbies and Other Interests: 
-#       - Reading books
+  - title: Hobbies and Other Interests
+    list: 
+      - Reading books
+  
+  - title: Hobbies and Other Interests
+    list: 
+      - Reading books
 
 
 projects:
     - title: UNDERGRAD PROJECTS
-    - projList: 
+      projList: 
         - name: CONTINUOUS MONITORING AND SMART EMERGENCY WARNING SYSTEM FOR CARDIOVASCULAR PATIENTS
           details : >  
             Giving warning in advance for patients 

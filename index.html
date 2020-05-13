@@ -238,18 +238,15 @@
       <div class="w-100">
 
         <h2 class="mb-5">Interests</h2>
-
-        <h3>Research Interests</h3>
+        {% for interest in site.data.profile.interest %}
+        <h3>{{ interest.title }}</h3>
         <ul>
-          <li>Computation Biology</li>
-          <li>Health Informatics</li>
-          <li>Machine Learning.</li>
+          {% for item in interest.list %}
+          <li>{{ item }}</li>
+          {% endfor  %}
+          
         </ul>
-
-        <h3>Hobbies and Other Interests</h3>
-        <ul>
-          <li>Reading books.</li>
-        </ul>
+        {% endfor %}
 
       </div>
     </section>
