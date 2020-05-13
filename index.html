@@ -206,29 +206,19 @@
           </li>
         </ul>
 
-
-        <div class="subheading mb-3">Technical Skills</div>
+        {% for skills in site.data.profile.skills %}
+        <div class="subheading mb-3">{{ skills.title }}</div>
         <ul>
+          {% for skill in skills.list %}
           <li>
-            <strong>Expert:</strong> Python, C, C++, Java.
+            {{ skill }}
           </li>
-          <li>
-            <strong>Fairly Good:</strong> Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
-          </li>
-          <li>
-            <strong>Database:</strong> MySQL, Oracle
-          </li>
-          <li>
-            <strong>Version Control System:</strong> GitHub.
-          </li>
+          {% endfor  %}
+          
         </ul>
+        {% endfor %}
 
-
-        <div class="subheading mb-3">Commuication Skills</div>
-        <ul>
-          <li>English</li>
-          <li>Bangla</li>
-        </ul>
+        
       </div>
     </section>
 

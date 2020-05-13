@@ -30,16 +30,23 @@ education:
         - GPA
         - 5.00/5.00
 
-# skills: 
-#   - Technical Skills:
-#       - Expert: Python, C, C++, Java.
-#       - Fairly Good: Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
-#       - Database: MySQL, Oracle
-#       - Version Control System: GitHub.
+skills: 
+  - title : Technical Skills
+    list:
+      - <strong>Expert:</strong> Python, C, C++, Java.
+      - <strong>Fairly Good:</strong> Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
+      # - <strong>Database:</strong> MySQL, Oracle
+      # - <strong>Version Control System:</strong> GitHub.
   
-#   - Commuication Skills:
-#       - English
-#       - Bangla 
+  - title: Commuication Skills
+    list: 
+      - English
+      - Bangla 
+
+  - title: Commuication Skills
+    list: 
+      - English
+      - Bangla 
 
 interest:
   - title: Research Interests
@@ -49,10 +56,6 @@ interest:
       - Data Science
       - Machine Learning
 
-  - title: Hobbies and Other Interests
-    list: 
-      - Reading books
-  
   - title: Hobbies and Other Interests
     list: 
       - Reading books
