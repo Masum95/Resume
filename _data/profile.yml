@@ -1,6 +1,7 @@
 name: Masum Rahman
 first_name: Masum
 last_name: Rahman 
+location: Dhaka,Bangladesh
 side_bar_color: rgb(33, 33, 33)
 site_name: Masum's Planet 
 
@@ -115,4 +116,24 @@ contact:
           icon: fab fa-linkedin-in
 
 
+experience:
+  - role: Production Engineer
+    organization:  Bashundhara 
+    experience: > 
+             Great place to work on. I really 
+             loved it's culture 
+            
+    period: March,2013 - Present
 
+  - role: Production Engineer
+    organisation:  Bashundhara 
+    experience: My experience goes here 
+    period: March,2013 - Present
+  
+
+
+
+co_curricular:
+  - <strong>Vice President @</Strong> House of volunteers BUET Branch
+  - <strong>Director @</strong>  Buet Career Club
+  - <strong>Volunteer @</strong>  Basic Right Initiative
