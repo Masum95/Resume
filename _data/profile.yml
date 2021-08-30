@@ -7,8 +7,8 @@ site_name: Masum's Planet
 
 
 about: > 
-          Hi,  I am a final-year undergrad student at the 
-          <a href="http://buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>. I love solving new problems with programming. 
+          Hi,  It's Masum. I've completed my graduation from  
+          <a href="http://buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>. Currently I am working as a Full-Stack software engineer. I love solving new problems with programming. 
 
 education: 
     - degree: B.Sc. Engg
@@ -16,10 +16,10 @@ education:
          name : Bangladesh University of Engineering and Technology (BUET)
          link : http://buet.ac.bd/
       sub: Computer Science and Emerging (CSE)
-      period : February 2016 - Present
+      period : February 2016 - 2021
       result: 
         - CGPA
-        - N/A
+        - 3.72/4.00
     
     - degree: H.S.C.(Higher Secondary Certificate)
       institute: 
@@ -48,10 +48,14 @@ skillButtons: ['fab fa-java', 'fab fa-python', 'fab fa-html5' , 'fab fa-css3-alt
 skills: 
   - title : Technical Skills
     list:
-      - <strong>Expert:</strong> Python, C, C++, Java.
-      - <strong>Fairly Good:</strong> Bash, HTML, CSS, LATEX, SQL, Javascript, Matlab, Assembly, JavaScript
+      - <strong>Programming Language:</strong> Python, C, C++, Java.
+      - <strong>Backend Framework:</strong> Django
+      - <strong>Frontend tool:</strong>  HTML, CSS,  React, Javascript, Jquery
+      - <strong>Scripting:</strong> LATEX, Shell Script
+      - <strong>Project Management:</strong> Jira
       - <strong>Database:</strong> MySQL, Oracle
-      - <strong>Version Control System:</strong> GitHub.
+      - <strong>Other:</strong>  Message broker, Docker, Matlab, Assembly
+      - <strong>Version Control System:</strong> Git, GitHub, Bitbucket
   
   - title: Commuication Skills
     list: 
@@ -62,6 +66,8 @@ skills:
 interest:
   - title: Research Interests
     list: 
+      - Cyber Security
+      - Data Mining
       - Computation Biology
       - Health Informatics
       - Data Science
@@ -79,7 +85,7 @@ projects:
           details : >  
             Giving warning in advance for patients 
             with arrhythmia using PPG. 
-          link: https://google.com
+          link: https://arxiv.org/abs/2011.00753
 
         - name: >
             ASSOCIATION MAPPING OF QUANTITATIVE
@@ -93,7 +99,7 @@ projects:
     
 
 awards: 
-  - <strong>B.Sc.:</Strong> University Merit Scholarship
+  - <strong>B.Sc.:</Strong> University Merit Scholarship For 3 Consecutive Years
   - <strong>H.S.C.:</strong> Board general scholarship.
   - <strong>S.S.C.:</strong> Board general scholarship.
 
@@ -117,23 +123,29 @@ contact:
 
 
 experience:
-  - role: Production Engineer
-    organization:  Bashundhara 
+  - role: Software Engineer
+    organization:  Priyo.com 
     experience: > 
-             Great place to work on. I really 
-             loved it's culture 
+             Built a registration platform using Django, Postgres that was used by over
+100k users. Working on Djang, React Platform.
             
-    period: March,2013 - Present
+    period: February 2021 - Present 
 
-  - role: Production Engineer
-    organisation:  Bashundhara 
-    experience: My experience goes here 
-    period: March,2013 - Present
+
+  - role: Undergraduate Research Assistant
+    organization: Data Science & Engineering Research Laboratory, Bangladesh
+    experience: > 
+             Worked on Machine Learning based " Smart Emergency Warning
+System For Cardiovascular Patients" project funded by the Ministry Of
+ICT, Bangladesh.
+            
+    period: August 2019 - March 2021
+
+
   
 
 
 
 co_curricular:
-  - <strong>Vice President @</Strong> House of volunteers BUET Branch
-  - <strong>Director @</strong>  Buet Career Club
-  - <strong>Volunteer @</strong>  Basic Right Initiative
+  - <strong>Website developer & Session-Organizer @</Strong> BSADD Community, BUET
+  - <strong>Co-founder & Content Creator @</strong>  Psi Squared
